@@ -157,8 +157,6 @@
 		pinctrl-2 = <&fpc_reset_active>;
 		pinctrl-3 = <&fpc_irq_active>;
 	};
-<<<<<<< HEAD
-=======
 	i2c@78b7000 { /* BLSP1 QUP3 */
 		status = "okay";
 		gt9xx@5d {
@@ -248,7 +246,6 @@
 			};
 	};
 
->>>>>>> e19764cf624f389ab27c9b9bbd09e2fa0eee1d18
 	i2c@78b6000 { /* BLSP1 QUP3 */
                 aw2013@45 {
 			compatible = "awinic,aw2013";
